@@ -1,0 +1,53 @@
+﻿*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #fff;
+}
+
+h1 {
+    padding: 5px;
+}
+
+.auto-style1 {
+    width: 27%;
+    height: 310px;
+    margin-right: 10px;
+}
+
+#form1 {
+    background-color: white;
+    width: 370px;
+    /*box-shadow:rgb(255, 106, 0, 12) 10px 5px 10px 5px unset;*/
+    box-shadow: chocolate 20px 30px 50px;
+    padding: 54px;
+    margin-bottom: 25px;
+}
+
+#txtEmail, #TextBox3, #TextBox4 {
+    height: 25px;
+    border-bottom-color: 1px solid dimgrey;
+}
+
+#TextBox1, #TextBox3, #TextBox4 {
+    height: 25px;
+    border-bottom-color: 1px solid dimgrey;
+}
+#Button1, #Button3 {
+    border: none;
+    border-radius: 5px;
+    background-color: #0a7472;
+    outline: none;
+    cursor:pointer;
+}
+    #Button1:hover,
+    #Button3:hover {
+        background-color: #3b6cd7;
+        color: #fff;
+        transition: 1s;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    

@@ -1,0 +1,26 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: open sans
+}
+.dashboard .side-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    background: #808080;
+}
+.dashboard .main-content{
+    width: 80vw;
+    margin-left: 60vw;
+    display: none;
+}
+#main-content{
+    display: none;
+}
+section{
+    display: none;
+}
